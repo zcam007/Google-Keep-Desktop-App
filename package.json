@@ -1,23 +1,43 @@
 {
   "name": "GoogleKeep",
   "productName": "GoogleKeep Desktop app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A minimal desktop Google Keep Application.",
   "main": "main.js",
-  "scripts": {
-    "start": "electron ."
-  },
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
   "author": "Chandu",
-  "license": "CC0-1.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "dmg": {
+    "contents": [
+      {
+        "x": 110,
+        "y": 150
+      },
+      {
+        "x": 240,
+        "y": 150,
+        "type": "link",
+        "path": "/Applications"
+      }
+    ]
+  },
+  "linux": {
+    "target": [
+      "AppImage",
+      "deb"
+    ]
+  },
+  "win": {
+    "target": "squirrel",
+    "icon": "build/icon.ico"
+  },
   "devDependencies": {
     "electron": "^4.0.4",
+    "electron-builder": "^20.38.5",
     "electron-packager": "^13.1.0"
   },
   "build": {
@@ -28,7 +48,5 @@
       "config"
     ]
   },
-  "dependencies": {
-    "electron-titlebar": "0.0.3"
-  }
+  "dependencies": {}
 }
