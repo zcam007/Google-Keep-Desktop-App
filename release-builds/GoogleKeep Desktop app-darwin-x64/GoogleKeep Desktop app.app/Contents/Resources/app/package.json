@@ -1,0 +1,31 @@
+{
+  "name": "GoogleKeep",
+  "productName": "GoogleKeep Desktop app",
+  "version": "1.0.0",
+  "description": "A minimal desktop Google Keep Application.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Chandu",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^4.0.4",
+    "electron-packager": "^13.1.0"
+  },
+  "build": {
+    "files": [
+      "config/*"
+    ],
+    "extraFiles": [
+      "config"
+    ]  
+  }
+}
