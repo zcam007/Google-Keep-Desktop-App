@@ -9,7 +9,9 @@
   "scripts": {
     "start": "electron .",
     "pack": "build --dir",
-    "dist": "build"
+    "dist": "build",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=Assets/Icons/Mac.icns --prune=true --out=release-builds",
+    "create-installer-mac": "electron-installer-dmg ./release-builds/GoogleKeep\\ Desktop\\ app-darwin-x64/GoogleKeep\\ Desktop\\ app.app GoogleKeep App --out=release-builds --overwrite --icon=Assets/Icons/Mac.icns"
   },
   "dmg": {
     "contents": [
@@ -36,7 +38,7 @@
     "icon": "build/icon.ico"
   },
   "devDependencies": {
-    "electron": "^4.0.4",
+    "electron": "^4.0.5",
     "electron-builder": "^20.38.5",
     "electron-packager": "^13.1.0"
   },
