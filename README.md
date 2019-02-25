@@ -28,7 +28,7 @@ npm start
 ```
 Collaborators:
 
-<img src="https://avatars.githubusercontent.com/u/10239894?v=3" width="100px;" alt="Sampath Grandhi"/><br /> Sampath Grandhi
+<img src="https://avatars.githubusercontent.com/u/10239894?v=3" width="100px;" alt="Sampath Grandhi"/><br /> <a href="https://github.com/gsk12">Sampath Grandhi</a>
 
 Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
