@@ -7,6 +7,8 @@
   <br> 
   <a href="https://github.com/zcam007/Google-Keep-Desktop-App/releases"> Download Now! </a>
   </p>
+
+___
 **Clone and run for a quick way to see Google Keep desktop application in action.**
 
 This is an Electron application based on the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start) within the Electron JS documentation.
