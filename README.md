@@ -1,5 +1,12 @@
 # Google-Keep-Desktop-App
+<br>
 
+<p align="center">
+  <img src="Assets/Icons/Keep.gif" width="600"/><br>
+<img src="Assets/Icons/Octicons-cloud-download.svg" width="100" />
+  <br> 
+  <a href="https://github.com/zcam007/Google-Keep-Desktop-App/releases"> Download Now! </a>
+  </p>
 **Clone and run for a quick way to see Google Keep desktop application in action.**
 
 This is an Electron application based on the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start) within the Electron JS documentation.
@@ -35,7 +42,7 @@ npm install
 npm start
 ```
 
-## Collaborators:
+## Contributors:
 <!--<img src="https://avatars.githubusercontent.com/u/10239894?v=3" width="100px;" alt="Sampath Grandhi"/><br /> <a href="https://github.com/gsk12">Sampath Grandhi</a>-->
 [<img src="https://avatars.githubusercontent.com/u/10239894?v=3" width="100px;" alt="Sampath Grandhi"/><br /><sub><b>Sampath Grandhi</b></sub>](https://github.com/gsk12)<br />
 
