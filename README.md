@@ -24,12 +24,12 @@ You can learn more about each of these components within the [Quick Start Guide]
 
 ## To Use
 
-Prerequisites
+#### Prerequisites
 -------------
 
 - [Git](https://git-scm.com)
 - [Node.js 8.0+](https://nodejs.org/en/download/)
-
+- [Electron](https://electronjs.org/docs)
 
 The easiest way to get started is to clone the repository. From your command line:
 
