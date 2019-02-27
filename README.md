@@ -25,7 +25,6 @@ You can learn more about each of these components within the [Quick Start Guide]
 ## To Use
 
 #### Prerequisites
--------------
 
 - [Git](https://git-scm.com)
 - [Node.js 8.0+](https://nodejs.org/en/download/)
